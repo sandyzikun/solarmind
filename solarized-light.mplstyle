@@ -19,50 +19,49 @@
 #orange     ='#cb4b16'
 
 figure.facecolor    : FDF6E3
-figure.figsize: 8.0, 5.5        # Appended
+# figure.figsize: 8.0, 5.5      # Appended
 
 patch.antialiased   : True
 
 # lines.linewidth     : 2.0     # Deleted
+
 lines.solid_capstyle: butt
 
-#axes.titlesize      : 16
-#axes.labelsize      : 12
+# axes.titlesize      : 16
+# axes.labelsize      : 12
+
 axes.labelcolor     : 657b83
 axes.facecolor      : eee8d5
 axes.edgecolor      : eee8d5
 axes.axisbelow      : True
-axes.prop_cycle    : cycler('color', ['268BD2', '2AA198', '859900', 'B58900', 'CB4B16', 'DC322F', 'D33682', '6C71C4'])
-# Blue
-# Cyan
-# Green
-# Yellow
-# Orange
-# Red
-# Magenta
-# Violet
+
+# Cycle Colors                          Blue,     Cyan,     Green,    Yellow,   Orange,   Red,      Magenta,  Violet
+axes.prop_cycle     : cycler('color', ['268BD2', '2AA198', '859900', 'B58900', 'CB4B16', 'DC322F', 'D33682', '6C71C4'])
 axes.grid           : True
 grid.color          : fdf6e3    # grid color
 grid.linestyle      : -         # line
 grid.linewidth      : 1         # in points
 
 ### TICKS
+
 xtick.color         : 657b83
 xtick.direction     : out
+
 # Appended
-xtick.labelsize: 10
-xtick.major.pad: 7
-xtick.major.size: 0
-xtick.major.width: 1
-xtick.minor.size: 0
-xtick.minor.width: .5
+# xtick.labelsize: 10
+# xtick.major.pad: 7
+# xtick.major.size: 0
+# xtick.major.width: 1
+# xtick.minor.size: 0
+# xtick.minor.width: .5
 
 ytick.color         : 657b83
 ytick.direction     : out
+
 # Appended
-ytick.labelsize: 10
-ytick.major.pad: 7
-ytick.major.size: 0
-ytick.major.width: 1
-ytick.minor.size: 0
-ytick.minor.width: .5
+# ytick.labelsize: 10
+# ytick.major.pad: 7
+# ytick.major.size: 0
+# ytick.major.width: 1
+# ytick.minor.size: 0
+# ytick.minor.width: .5
